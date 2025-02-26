@@ -1,0 +1,97 @@
+/* colors */
+
+:root {
+  --text-color-b: #684d43;
+  --text-color-g: #1e530a;
+}
+
+.heading_color {
+  color: var(--text-color-g);
+}
+
+.text_color {
+  color: var(--text-color-b);
+}
+
+.Login_container {
+  width: 100%;
+  height: 95vh;
+}
+
+.google_icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.google_icon {
+}
+
+.inner_container {
+  margin: auto;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+}
+
+.guest_login {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.login_logo_img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.phone_icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.Login_btn {
+  background-color: #1a5c02;
+  color: #ffffff;
+  width: 60%;
+  font-size: larger;
+}
+
+.Login_input {
+  width: 60%;
+  border-bottom: 1px solid #1a5c02;
+  border-radius: 0.5rem;
+}
+
+.input-group-text {
+  border-radius: 0.5rem;
+  background-color: #e5f1e9;
+}
+
+.input_text_field {
+  background-color: #e5f1e9;
+  border-radius: 0.5rem;
+}
+
+.input-group {
+  border-radius: 1rem !important;
+}
+
+input[placeholder] {
+  color: #1a5c02 !important;
+}
+
+.policy {
+  text-decoration: none;
+  color: #1a5c02;
+  font-weight: 600;
+}

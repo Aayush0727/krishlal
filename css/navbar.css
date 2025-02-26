@@ -1,0 +1,163 @@
+  /* colors */
+  
+  :root {
+    --bg_color: #195a02;
+    --text-color-b: #684d43;
+    --text-color-g: #1e530a;
+  }
+  
+  .heading_color {
+    color: var(--text-color-g);
+  }
+  
+  .text_color {
+    color: var(--text-color-b);
+  }
+  
+  .bg_color {
+    background-color: var(--bg_color);
+  }
+  
+
+
+/* Navbar */
+
+.top_icons_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0 0.2rem 0;
+  }
+  
+  .top_search_icon {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0;
+  }
+  
+  .top_icons_img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.6rem;
+  }
+  
+  .top_icons_img:hover {
+    scale: 1.2;
+  }
+  
+  .top_icons_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0;
+  }
+  
+  .top_icons_left_side {
+    display: flex;
+    align-items: end;
+    margin-left: 9rem;
+    width: 35%;
+  }
+  
+  .top_icons_right_side {
+    display: flex;
+    align-items: end;
+    width: 33%;
+  }
+  
+  .top_icon_search_bar::placeholder {
+    color: white !important;
+    text-align: center;
+    font-weight: 400 !important;
+  }
+  
+  .top_icon_search_bar {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    width: 18rem;
+  }
+  
+  @media (max-width: 991px) {
+    .top_icons_container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .top_icons_right_side {
+      display: none;
+    }
+  
+    .top_icons_left_side {
+      margin: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .logo_img {
+    width: 8rem;
+    height: auto;
+  }
+  
+  .logo_img:hover {
+    scale: 1.05;
+  }
+  
+  .nav_color {
+    background-color: #fff;
+    height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 3px solid #1b5b04;
+  }
+  
+  .nav-item a {
+    color: #1a5c02 !important;
+  }
+  
+  .nav-link.active {
+    color: brown !important;
+  }
+  
+  .text_Hover:hover {
+    border-bottom: 2px solid var(--text-color-g);
+  }
+  
+  @media (max-width: 991px) {
+    .nav_color {
+      height: auto;
+      border-radius: 10px !important;
+    }
+  
+    .center_logo_img {
+      display: none;
+    }
+  
+    .nav_color > li {
+      margin: 1rem 0;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-link.active {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border: 3px solid #1b5b04;
+      border-radius: 50rem;
+    }
+  }
+  
+  .navbar_search {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+  }
+  
+  .search_icon {
+    width: 2rem;
+    height: 2rem;
+  }
